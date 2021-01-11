@@ -5,17 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Battery</title>
+    <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1>Battery</h1>
-
-    <div id="container" onclick="">
-        <button id="counter" type="button" class="btn btn-primary"></button>
+    <div class="container">
+        <div class="row battery-head"></div>
+        <div class="row" id="battery">
+            <ul class="list-group">
+                <li class="list-group-item  item-battery"></li>
+                <li class="list-group-item  item-battery"></li>
+                <li class="list-group-item  item-battery"></li>
+                <li class="list-group-item  item-battery"></li>
+            </ul>
+        </div>
+        <div class="row counter-row">
+            <ul class="list-group counter-text">
+                <li class="list-group-item counter-item"></li>
+            </ul>
+        </div>
+        <div class="row btn-row">
+            <div id="btn-container"  class="btn-group" role="group" aria-label="Basic example">
+                <button id="counter-plus" onclick="" type="button" class="btn btn-primary">+</button>
+                <button id="counter-minus" onclick="" type="button" class="btn btn-warning">-</button>
+            </div>
+        </div>
     </div>
-
     <script src="./app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
@@ -26,7 +43,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
     </script>
-
 </body>
 
 </html>
