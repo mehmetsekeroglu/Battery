@@ -4,20 +4,24 @@
     align-items: center;
     margin-top: 10vh;
 }
+
 #battery {
     margin-bottom: 5vh;
     width: 20vw;
 }
+
 .battery-head {
     background-color: #b1b4b4;
     width: 5vw;
     height: 5vh;
 }
+
 .item-battery {
     height: 13vh;
     text-align: center;
     color: rgb(65, 40, 3);
 }
+
 .counter-row {
     margin-bottom: 5vh;
 }
@@ -28,6 +32,6 @@
     text-align: center;
 }
 
-button{
+button {
     width: 7vw;
 }

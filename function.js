@@ -1,3 +1,6 @@
+/**
+ * Pilin icini renklendirir
+ */
 function color() {
     if (counter === 0) {
         lowestRow.style.background = "white";
@@ -26,21 +29,27 @@ function color() {
         highestRow.style.background = "green";
     }
 }
-
+/**
+ * Pil sayacini artirir
+ */
 function controlCounterIncrease() {
     if (counter < 100) {
         counterItem.innerHTML = counter = counter + 25;
         counterItem.innerHTML = "%" + counter;
     }
 }
-
+/**
+ * Pil sayacini azaltir
+ */
 function controlCounterDecrease() {
     if (counter > 0) {
         counterItem.innerHTML = counter = counter - 25;
         counterItem.innerHTML = "%" + counter;
     }
 }
-
+/**
+ * %100 dolulugu kontrol eder
+ */
 function fullControl() {
     if (counter === 100) {
         highRow.innerHTML = "Battery Full"
@@ -49,7 +58,9 @@ function fullControl() {
         highRow.innerHTML = " "
     }
 }
-
+/**
+ * Bos pili kontrol eder
+ */
 function emptyControl() {
     if (counter === 0) {
         highRow.innerHTML = "Battery Empty"
