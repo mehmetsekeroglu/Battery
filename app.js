@@ -4,7 +4,6 @@ const lowestRow = document.querySelector("li:last-child");
 const lowRow = document.querySelector("li:nth-child(3)");
 const highRow = document.querySelector("li:nth-child(2)");
 const highestRow = document.querySelector("li:first-child");
-const allBattery = document.querySelectorAll(".list-group-item");
 const counterItem = document.querySelector(".counter-item");
 let counter = 0;
 
