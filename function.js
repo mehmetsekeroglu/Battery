@@ -26,7 +26,7 @@ function color() {
         lowestRow.style.background = "green";
         lowRow.style.background = "green";
         highRow.style.background = "green";
-        highestRow.style.background = "green";
+        highestRow.style.background = "green";  
     }
 }
 /**

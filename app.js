@@ -1,9 +1,10 @@
 const counterPlus = document.querySelector("#counter-plus");
 const counterMinus = document.querySelector("#counter-minus");
-const lowestRow = document.querySelector("#lowest-row");
-const lowRow = document.querySelector("#low-row");
-const highRow = document.querySelector("#high-row");
-const highestRow = document.querySelector("#highest-row");
+const lowestRow = document.querySelector("li:last-child");
+const lowRow = document.querySelector("li:nth-child(3)");
+const highRow = document.querySelector("li:nth-child(2)");
+const highestRow = document.querySelector("li:first-child");
+const allBattery = document.querySelectorAll(".list-group-item");
 const counterItem = document.querySelector(".counter-item");
 let counter = 0;
 
