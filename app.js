@@ -1,3 +1,9 @@
+/**
+ * Program bir pilin dolup bosalmasini simule etmektedir.
+ * Web sayfasinda pilin bos resmi görüntülenir.
+ * Sayfadaki iki buton yardimi (+ ve -) ile pil doldurulup bosaltilabilir.
+ * Pilin doluluk durumuna göre rengi degistirilir.
+ */
 const counterPlus = document.querySelector("#counter-plus");
 const counterMinus = document.querySelector("#counter-minus");
 const lowestRow = document.querySelector("li:last-child");
